@@ -1,0 +1,21 @@
+name: xarray
+channels:
+ - conda-forge
+ - anaconda
+ - defaults
+dependencies:
+ - python>=3.10
+ - pip
+ - xarray
+ - tqdm
+ - numpy
+ - matplotlib
+ - xesmf
+ - fsspec
+ - s3fs
+ - cfgrib
+ - rioxarray
+ - rasterio
+ - netCDF4
+ - hdf5
+ - zarr

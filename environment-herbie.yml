@@ -1,0 +1,24 @@
+name: herbie
+channels:
+ - conda-forge
+ - anaconda
+ - defaults
+dependencies:
+ - python>=3.10
+ - jupyter
+ - xarray
+ - matplotlib
+ - dask
+ - netCDF4
+ - zarr
+ - rasterio
+ - herbie-data
+ - pygrib>=2.1.4
+ - requests>=2.27.1
+ - s3fs
+ - scipy
+ - toml
+ - cfgrib>=0.9.10.1
+ - eccodes>=2.26.0
+ - geopandas
+ - h5py
